@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+<picture>
+  <source media="(max-width: 799px)" srcset="detul-banner-l.jpg">
+  <source media="(min-width: 800px)" srcset="detul-banner-b.jpg">
+  <img src="detul-banner-b.jpg" class="responsive">
+</picture>
+</body>
+</html>
